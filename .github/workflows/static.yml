@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visite d'Angers</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Pour que le footer reste en bas de la page */
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header {
+      position: relative;
+      width: 100%;
+      height: 25vh;
+      overflow: hidden;
+    }
+
+    .header img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .header h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 48px;
+      color: white;
+      z-index: 1;
+    }
+
+    .menu {
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex: 1; /* Pour que le contenu principal prenne tout l'espace restant */
+    }
+
+    .content-1 {
+      background-color: white;
+      padding: 20px;
+      text-align: left;
+      width: 66.67%;
+    }
+
+    .content-2 {
+      background-color: lightgray;
+      padding: 20px;
+      text-align: left;
+      width: 33.33%;
+    }
+
+    .footer {
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Château_d%27Angers%2C_South_view_20170611_1.jpg" alt="Image d'Angers">
+    <h1>Visite d'Angers</h1>
+  </div>
+  <div class="menu">
+    <a href="#">Accueil</a>
+    <a href="#">Informations</a>
+    <a href="#">Histoire</a>
+  </div>
+  <div class="content-wrapper">
+    <div class="content-1">
+      <h2>Histoire d'Angers</h2>
+        <p>Il était une fois, au cœur de la vallée de la Loire, une ville au riche passé historique : Angers. Son histoire remonte à l'époque gallo-romaine, lorsque les Romains fondèrent une cité du nom de "Juliomagus" en l'an 16 avant J.-C. Cette position stratégique, sur les rives du fleuve, en fit un lieu de commerce prospère.</p>
+        <p>Au fil des siècles, Angers évolua sous différentes influences. Au Vème siècle, les invasions barbares marquèrent son destin, et la cité passa aux mains des Francs. Puis, au IXème siècle, les comtes d'Anjou, membres de la dynastie des Plantagenêts, prirent le contrôle de la région. L'un des personnages emblématiques de cette période fut la reine Aliénor d'Aquitaine, qui apporta un rayonnement culturel et artistique à Angers.</p>
+        <p>Au Moyen Âge, la ville se développa considérablement, notamment grâce à la construction du château d'Angers, une forteresse imposante dont les remparts et le célèbre "Tenture de l'Apocalypse" témoignent encore aujourd'hui. Le château devint le centre du pouvoir des comtes d'Anjou, et par la suite, le siège de la couronne d'Angleterre lorsque Henri II Plantagenêt monta sur le trône.</p>
+        <p>La ville connut également une période de prospérité économique grâce à l'industrie textile et à la production de toiles de lin renommées dans toute l'Europe.</p>
+        <p>Au-delà de ses murs, Angers fut également le théâtre de conflits et de batailles, en particulier pendant la guerre de Cent Ans entre la France et l'Angleterre. Jeanne d'Arc elle-même vint à Angers en 1429 pour rencontrer le roi Charles VII.</p>
+        <p>Au fil du temps, Angers devint un centre culturel important, avec la création de l'Université d'Angers au XIVème siècle et la construction de magnifiques églises, comme la cathédrale Saint-Maurice, qui présente une architecture gothique remarquable.</p>
+        <p>Au XIXème siècle, la ville se modernisa, s'industrialisa, et les anciennes fortifications furent démantelées pour laisser place à des boulevards et des espaces verts, tels que le parc du Jardin des Plantes.</p>
+        <p>Aujourd'hui, Angers est une ville dynamique, alliant harmonieusement son héritage historique avec une vie contemporaine animée. Célèbre pour ses vins de Loire, ses jardins, ses musées, et son art de vivre, Angers continue d'écrire son histoire en accueillant chaleureusement visiteurs et résidents dans ses rues pavées, témoins de siècles d'événements et de moments inoubliables.</p>
+    </body></p>
+    </div>
+    <div class="content-2">
+      <h2>Carte du trajet</h2>
+      <p><iframe src="https://www.google.com/maps/d/embed?mid=1_Gt26kL37E6G-plrkNbO01VKRBl86sQ&ehbc=2E312F" width="450" height="480"></iframe></p>
+    </div>
+  </div>
+  <footer class="footer">
+    <a href="#">Accueil</a>
+    <a href="#">Crédit</a>
+    <a href="https://www.instagram.com/alo.wis/">Instagram</a>
+  </footer>
+</body>
+</html>
